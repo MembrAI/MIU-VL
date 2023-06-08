@@ -188,6 +188,11 @@ python test_vqa.py --json ${jsonFile} \
       DATASETS.USE_OVERRIDE_CATEGORY True \
       DATASETS.USE_CAPTION_PROMPT True\
 ```
+### Fine-Tuning
+You can also fine-tune the GLIP model with our 
+
+#### Checkpoints
+
 
 ## 🙋‍♀️ Feedback and Contact
 
@@ -202,7 +207,7 @@ This project is under the CC-BY-NC 4.0 license. See [LICENSE](LICENSE) for detai
 
 ## 🙏 Acknowledgement
 
-A lot of code is modified from [monai](https://github.com/Project-MONAI/MONAI).
+Our code is adapted from the [GLIP](https://github.com/microsoft/GLIP.git) project. And we also use the [OFA](https://huggingface.co/OFA-Sys) and [PubMedBert](https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext) for auto-prompt generation. Thanks for their execellent works.
 
 ## 📝 Citation
 
