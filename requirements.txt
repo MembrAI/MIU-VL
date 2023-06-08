@@ -1,0 +1,51 @@
+certifi @ file:///opt/conda/conda-bld/certifi_1655968806487/work/certifi
+charset-normalizer==2.0.12
+click==8.1.3
+cycler==0.11.0
+docopt==0.6.2
+einops==0.4.1
+filelock==3.7.1
+fonttools==4.33.3
+fsspec==2023.5.0
+ftfy==6.1.1
+huggingface-hub==0.15.1
+idna==3.3
+inflect==5.6.0
+joblib==1.1.0
+kiwisolver==1.4.3
+matplotlib==3.5.2
+mkl-fft==1.3.1
+mkl-random @ file:///tmp/build/80754af9/mkl_random_1626186064646/work
+mkl-service==2.4.0
+nltk==3.7
+numpy @ file:///opt/conda/conda-bld/numpy_and_numpy_base_1652801679809/work
+opencv-python==4.6.0.66
+packaging==21.3
+Pillow==9.0.1
+pipreqs==0.4.13
+prettytable==3.3.0
+protobuf==3.20.1
+pycocotools==2.0.4
+pymongo==4.1.1
+pyparsing==3.0.9
+python-dateutil==2.8.2
+PyYAML==6.0
+regex==2022.6.2
+requests==2.28.0
+sacremoses==0.0.53
+scipy==1.8.1
+Shapely==1.8.2
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+tensorboardX==2.5.1
+timm==0.5.4
+tokenizers==0.13.3
+torch==1.9.1
+torchaudio==0.9.0a0+a85b239
+torchvision==0.10.1
+tqdm==4.64.0
+transformers @ file:///ziyuanqin/projects/vl/iclr/VL-model-medical-image-understanding-automata/OFA/transformers
+typing_extensions @ file:///opt/conda/conda-bld/typing_extensions_1647553014482/work
+urllib3==1.26.9
+wcwidth==0.2.5
+yacs==0.1.8
+yarg==0.1.9
