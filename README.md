@@ -27,7 +27,6 @@ Welcome to OpenMEDLab! 👋
 
 
 ![Loc](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/HansBug/3690cccd811e4c5f771075c2f785c7bb/raw/loc.json)
-![Comments](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/HansBug/3690cccd811e4c5f771075c2f785c7bb/raw/comments.json)
 
 
 <!-- ![GitHub Org's stars](https://img.shields.io/github/stars/opendilab)
@@ -51,6 +50,11 @@ This is a repository for the ICLR2023 accepted paper -- [Medical Image Understan
 - We further propose three different approaches for automatical prompts generation, leveraging either specialized Language Models(LM) or VQA models to obtain.
 - Our methods are evaluated by various public medical datasets. For more detail please refer to the [paper](https://arxiv.org/abs/2209.15517v2).
 
+**ZeroShot Results**
+<div align="center">
+    <a href="https://"><img width="1000px" height="auto" src="figures/zeroshot_res.PNG"></a>
+</div>
+Our methods show superiority under zero-shot settings.
 <!-- ## Links
 
 - [Paper](https://)
@@ -83,6 +87,19 @@ Due to the license factor, we can not share all the datasets we used in our work
 
 After you download this zip file, please unzip it and place the folder at the project path.
 
+### DEMO
+#### Interface
+We also provide a interface space on huggingface for quick interaction with our approach. Please check this [link](https://drdoggo-medical-image-understanding-with-vlms.hf.space) for the interactable demo page.
+
+<!-- <iframe
+	src="https://drdoggo-medical-image-understanding-with-vlms.hf.space"
+	frameborder="0"
+	width="850"
+	height="450"
+></iframe> -->
+
+#### Colab file
+You can also check [this Colab](https://colab.research.google.com/drive/1S6MKq1g9ilnz4IFDsvZUqjZw_Lx3UGJ9?usp=sharing) script for code and training detail.
 
 ## Get Started
 
@@ -194,22 +211,13 @@ We also finetuned the GLIP model with the medical data we collected. For conveni
 #### Checkpoints
 | Dataset | Weights | Data Link | ConfigFile|
 | ------ | ------ | ------ | ------ |
-| [TN3k]() | [Link]() | [Link]() | Placeholder |
-| [ADNI]() | [Link]() | [Link]() | Placeholder |
+| TN3k | [Link]() | [Link]() | Placeholder |
+| ADNI | [Link]() | [Link]() | Placeholder |
 
-### DEMO
-#### Interface
-We also provide a interface space on huggingface for quick interaction with our approach. Please check this [link]() for the interactable demo page.
-<div style="position: relative; padding: 30% 45%;">
-<iframe
-	src="https://drdoggo-medical-image-understanding-with-vlms.hf.space"
-	frameborder="0"
-	width="850"
-	height="450"
-></iframe>
+**Fine-Tune Results**
+<div align="center">
+    <a href="https://"><img width="1000px" height="auto" src="figures/finetune_res.PNG"></a>
 </div>
-#### Colab file
-You can also check [this Colab](https://colab.research.google.com/drive/1S6MKq1g9ilnz4IFDsvZUqjZw_Lx3UGJ9?usp=sharing) script for code and training detail.
 
 ## 🙋‍♀️ Feedback and Contact
 
