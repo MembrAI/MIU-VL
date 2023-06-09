@@ -209,10 +209,13 @@ python test_vqa.py --json ${jsonFile} \
 We also finetuned the GLIP model with the medical data we collected. For convenience, we uploaded all the check pointed here for people who want to replicate our results. 
 
 #### Checkpoints
-| Dataset | Weights | Data Link | ConfigFile|
+| Dataset | Weights | Data Link | PASSWORD|
 | ------ | ------ | ------ | ------ |
-| TN3k | [Link]() | [Link]() | Placeholder |
-| ADNI | [Link]() | [Link]() | Placeholder |
+| LUNA16 | [Link](https://pan.baidu.com/s/1krBdjx0DjiwExqYyygSy9Q) | [Link]() | tg5h |
+| ADNI | [Link](https://pan.baidu.com/s/1OlBSd9fE_U9LO_R6aujtvA) | [Link]() | dptg |
+
+
+
 
 **Fine-Tune Results**
 <div align="center">
