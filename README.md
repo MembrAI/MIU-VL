@@ -209,11 +209,23 @@ python test_vqa.py --json ${jsonFile} \
 We also finetuned the GLIP model with the medical data we collected. For convenience, we uploaded all the check pointed here for people who want to replicate our results. 
 
 #### Checkpoints
-| Dataset | Weights | Data Link | PASSWORD|
-| ------ | ------ | ------ | ------ |
-| LUNA16 | [Link](https://pan.baidu.com/s/1krBdjx0DjiwExqYyygSy9Q) | [Link]() | tg5h |
-| ADNI | [Link](https://pan.baidu.com/s/1OlBSd9fE_U9LO_R6aujtvA) | [Link]() | dptg |
+**Non-radiology Checkpoints**
+| DataSet | Weights | PASSWORD|
+| ------ | ------ | ------ |
+|Polyp| [Link](https://pan.baidu.com/s/1Ms8DzJpSURQeY3h-634-bQ)|1f8e|
+|CPM17|[Link](https://pan.baidu.com/s/1oScdRiJmf28Dc3d50RJkNw)|ywyc|
+|BCCD|[Link](https://pan.baidu.com/s/1U8zJpiESE0B31M29-ibTKw)|4wrb|
+|ISIC2016|[Link](https://pan.baidu.com/s/1XJtuPJH-OFuFRIRu0QlbFA)|j7fc|
+|DFUC2020|[Link](https://pan.baidu.com/s/1u3VNmxdN7i_vysv5k1yLtQ)|pbir|
 
+
+**Radiology Dataset and Checkpoints**
+| DataSet | Weights | PASSWORD|
+| ------ | ------ | ------ |
+| [LUNA16]() | [Link](https://pan.baidu.com/s/1krBdjx0DjiwExqYyygSy9Q) | tg5h |
+| [ADNI]() | [Link](https://pan.baidu.com/s/1OlBSd9fE_U9LO_R6aujtvA) | dptg |
+| [TN3k]() | [Link](https://pan.baidu.com/s/1v14Diesry2NvZRJiGx238A)| 596i |
+| [TBX11k]() | [Link](https://pan.baidu.com/s/13n71sW3a6c1ZSN1GAaaQSw) | tv9s|
 
 
 
