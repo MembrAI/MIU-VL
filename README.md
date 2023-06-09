@@ -69,12 +69,12 @@ intro text here.
     <a href="https://"><img width="1000px" height="auto" src="https://github.com/openmedlab/sampleProject/blob/main/diagram_sample.png"></a>
 </div>
 
-More intro text here. --> -->
+More intro text here. -->
 
 
 ## Dataset
 
-Due to the license factor, we can not share all the datasets we used in our work, but we upload the polyp benchmark datasets as sample. If someone wants to use their own dataset, please refer to the polyp datasets to organize their data paths and annotation files. 
+Due to the license factor, we can not share all the datasets we used in our work, but we upload the polyp benchmark datasets as sample. The polyp datasets are prepared by [PraNet](https://github.com/DengPingFan/PraNet.git) project, you can also download the data [here](https://github.com/DengPingFan/PraNet#31-trainingtesting). If someone wants to use their own dataset, please refer to the polyp datasets to organize their data paths and annotation files. 
 
 |Netdisk Type|Link|Password(optional)|
 | ------ | ------ | ------ |
@@ -189,16 +189,24 @@ python test_vqa.py --json ${jsonFile} \
       DATASETS.USE_CAPTION_PROMPT True\
 ```
 ### Fine-Tuning
-You can also fine-tune the GLIP model with our 
+We also finetuned the GLIP model with the medical data we collected. For convenience, we uploaded all the check pointed here for people who want to replicate our results. 
 
 #### Checkpoints
+| Dataset | Weights | Data Link | ConfigFile|
+| ------ | ------ | ------ | ------ |
+| [TN3k]() | [Link]() | [Link]() | Placeholder |
+| [ADNI]() | [Link]() | [Link]() | Placeholder |
 
+### DEMO
+#### Interface
+We also provide a interface space on huggingface for quick interaction with our approach. Please check this [link]() for the interactable demo page.
+
+#### Colab file
+You can also check [this Colab](https://colab.research.google.com/drive/1S6MKq1g9ilnz4IFDsvZUqjZw_Lx3UGJ9?usp=sharing) script for code and training detail.
 
 ## 🙋‍♀️ Feedback and Contact
 
-- Email
-- Webpage 
-- Social media
+- Emai: placeholder@tmp.com
 
 
 ## 🛡️ License
