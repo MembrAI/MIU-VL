@@ -200,14 +200,14 @@ We also finetuned the GLIP model with the medical data we collected. For conveni
 ### DEMO
 #### Interface
 We also provide a interface space on huggingface for quick interaction with our approach. Please check this [link]() for the interactable demo page.
-
+<div style="position: relative; padding: 30% 45%;">
 <iframe
 	src="https://drdoggo-medical-image-understanding-with-vlms.hf.space"
 	frameborder="0"
 	width="850"
 	height="450"
 ></iframe>
-
+</div>
 #### Colab file
 You can also check [this Colab](https://colab.research.google.com/drive/1S6MKq1g9ilnz4IFDsvZUqjZw_Lx3UGJ9?usp=sharing) script for code and training detail.
 
